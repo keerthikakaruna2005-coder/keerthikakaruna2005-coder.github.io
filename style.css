@@ -241,3 +241,27 @@ section h2 {
     text-decoration: none;
 
 }
+.page{
+
+padding:80px 10%;
+text-align:center;
+
+}
+
+
+.page h1{
+
+font-size:40px;
+margin-bottom:30px;
+
+}
+
+
+.page p{
+
+max-width:900px;
+margin:20px auto;
+font-size:18px;
+line-height:1.8;
+
+}
