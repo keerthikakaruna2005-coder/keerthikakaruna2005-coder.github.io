@@ -138,3 +138,130 @@ font-size:18px;
 }
 
 }
+/* General Sections */
+
+section {
+    padding: 70px 10%;
+}
+
+section h2 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+
+/* About Section */
+
+.about-container {
+    max-width: 900px;
+    margin: auto;
+    text-align: center;
+}
+
+.about-container p {
+    line-height: 1.8;
+    font-size: 18px;
+}
+
+
+
+/* Skills Section */
+
+#skills {
+    text-align: center;
+}
+
+
+.skill-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+}
+
+
+.skill-card {
+    padding: 25px;
+    border-radius: 15px;
+    text-align: center;
+    background: #f2f2f2;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+
+.skill-card:hover {
+    transform: translateY(-10px);
+}
+
+
+
+/* Projects Section */
+
+
+.project-container {
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+
+}
+
+
+.project-card {
+
+    padding: 25px;
+    border-radius: 15px;
+    background: #f2f2f2;
+    transition: 0.3s;
+
+}
+
+
+.project-card:hover {
+
+    transform: translateY(-10px);
+
+}
+
+
+
+/* Contact */
+
+
+#contact {
+
+    text-align: center;
+
+}
+
+
+#contact a {
+
+    text-decoration: none;
+
+}
+.page{
+
+padding:80px 10%;
+text-align:center;
+
+}
+
+
+.page h1{
+
+font-size:40px;
+margin-bottom:30px;
+
+}
+
+
+.page p{
+
+max-width:900px;
+margin:20px auto;
+font-size:18px;
+line-height:1.8;
+
+}
