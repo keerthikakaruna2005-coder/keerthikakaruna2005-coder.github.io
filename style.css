@@ -69,6 +69,19 @@ grid-template-columns:repeat(2,1fr);
 .skill-container{
 
 grid-template-columns:1fr;
+    /* Skills page text color only */
+
+.skill-card {
+    color: black;
+}
+
+.skill-card h3 {
+    color: black;
+}
+
+.skill-card p {
+    color: black;
+}
 
 }
 
